@@ -3,7 +3,7 @@
         $uname="root";
         $pass="";
         $servername="localhost";
-        $dbname="bcremote";
+        $dbname="skdevelopers";
         $db=new mysqli($servername,$uname,$pass,$dbname);
         $query =  $db->query("SELECT * FROM location");
         //$number_of_rows = mysql_num_rows($db);  
